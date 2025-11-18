@@ -1,0 +1,42 @@
+{
+  "name": "api-dinosaurios",
+  "version": "1.0.0",
+  "description": "API REST para gestionar información de dinosaurios y paleontólogos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "start:dev": "NODE_ENV=development nodemon index.js",
+    "prod": "NODE_ENV=production node index.js",
+    "test": "echo \"No se han definido tests aún\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "dinosaurios",
+    "paleontólogos",
+    "nodejs",
+    "express",
+    "mern"
+  ],
+  "author": "Valeria",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "morgan": "^1.10.0",
+    "helmet": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usuario/api-dinosaurios"
+  }
+}
